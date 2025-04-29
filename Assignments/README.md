@@ -24,7 +24,7 @@ To install Gradle, it is required to have [(Software Development Kit Manager (SD
     In case of using other Java version, please see the compatibility matrix between Java and Gradle version [here](https://docs.gradle.org/current/userguide/compatibility.html).
 
 
-Please find the (Gradle 7.3 user manual)[https://docs.gradle.org/7.3.3/userguide/userguide.html]. Also, find the example of building a Gradle project (here)[https://docs.gradle.org/current/samples/sample_building_java_applications.html].
+Please find the [Gradle 7.3 user manual](https://docs.gradle.org/7.3.3/userguide/userguide.html). Also, find the example of building a Gradle project [here](https://docs.gradle.org/current/samples/sample_building_java_applications.html).
 
 Example code:
 
