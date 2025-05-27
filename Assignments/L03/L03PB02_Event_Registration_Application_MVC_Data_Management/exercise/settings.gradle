@@ -1,0 +1,5 @@
+rootProject.name = 'L03PB02-Event-Registration-Application-[MVC,Data-Management]-Exercise'
+include "Common"
+include "EventMicroservice"
+include "TokenGeneratorMicroservice"
+include "Client"
