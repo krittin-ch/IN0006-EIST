@@ -2,7 +2,7 @@
 
 In the basic exercise of our KVS we implemented a local file folder to manage our files. In this exercise, we want to make the file folder _online_ by implementing a client-server model. To prevent users from accessing other users files, we attach the user-id along with the content, meaning each key would be associated with an `Entry` including a user-id `uid` and the content `content` (details in `ff.py`). The implementation of the `FileFolder` class stays unchanged comparing to the basic exercise.
 
-Your task now is to implement the _server_ API handlers for handling the file-folder action requests and the client for sending the file-folder action requests. In this exercise, we use flask to implement the server. A quickstart on how to implement the Flask API handlers can be found [here](https://flask.palletsprojects.com/en/stable/tutorial/views/).
+Your task now is to implement the _server_ API handlers for handling the file-folder action requests and the client for sending the file-folder action requests. In this exercise, we use [flask](https://flask.palletsprojects.com/en/stable/) to implement the server. A quickstart on how to implement the Flask API handlers can be found [here](https://flask.palletsprojects.com/en/stable/tutorial/views/).
 
 The exercise is implemented in Python. Check the README file after you clone the repository for an explanation how to install Python, the necessary dependencies and start the application.
 
