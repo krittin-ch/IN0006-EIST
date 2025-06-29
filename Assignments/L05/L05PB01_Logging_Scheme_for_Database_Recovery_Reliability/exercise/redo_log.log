@@ -1,0 +1,10 @@
+{"action": "delete", "key": "status"}
+{"action": "delete", "key": "salary"}
+{"action": "delete", "key": "city"}
+{"action": "set", "key": "name", "value": "Mark"}
+{"action": "set", "key": "age", "value": 28}
+{"action": "set", "key": "country", "value": "USA"}
+{"action": "delete", "key": "position"}
+{"action": "delete", "key": "department"}
+{"action": "set", "key": "gender", "value": "male"}
+{"action": "delete", "key": "email"}
