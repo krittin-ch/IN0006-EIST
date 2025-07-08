@@ -1,0 +1,11 @@
+load("@rules_python//python:pip.bzl", "compile_pip_requirements")
+
+
+# To generate the file use (requirements_lock.txt needs to exist otherwise it fails): 
+# touch server-side/requirements_lock.txt
+# bazel run //server-side:requirements.update
+compile_pip_requirements(
+    name = "requirements",
+    src = "requirements.txt",
+    requirements_txt = "requirements_lock.txt",
+)
