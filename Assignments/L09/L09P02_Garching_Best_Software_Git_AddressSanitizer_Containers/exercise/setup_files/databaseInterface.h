@@ -1,0 +1,2 @@
+void initDatabase();
+void writeToDatabase();

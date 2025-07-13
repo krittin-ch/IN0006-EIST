@@ -1,0 +1,15 @@
+*
+
+!*.h
+!*.c
+!*.py
+!*.txt
+!docker-compose.yml
+!Dockerfile
+!Dockerfile_Corrupt
+!*.sh
+!Makefile
+!.gitignore
+!.gitattributes
+
+!*/

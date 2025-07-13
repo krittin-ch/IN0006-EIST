@@ -1,0 +1,9 @@
+# jgit or so is buggy, so we have to specify * at the top of the file
+*
+!Makefile
+!.gitignore
+!.gitattributes
+!src/*
+!BUILD.bazel
+!WORKSPACE.bazel
+bazel*

@@ -1,0 +1,10 @@
+java_binary(
+    # TODO : The final binary should be called fsk_checker
+    # TODO : Source the Main.java file, and specify the Main class and its dependencies
+
+)
+
+java_library(
+    # TODO : Compile the Movie.java as library
+
+)

@@ -1,0 +1,13 @@
+# TODO 3.3 C
+
+  employee-manager-postgres:
+  container_name: employee-manager-postgres
+    volumes:
+      - employee-data:/var/lib/postgresql/data
+    ports:
+      - "(5432:5432)"
+
+  employee-manager-app:
+
+volume:
+  data:
